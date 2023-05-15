@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do List</title>
+    <link rel="stylesheet" href="style3.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>ToDo List</h1><br>
+      <h1>         </h1><br>
+      <div id="addTask">
+        <div id="newTask">
+          <input type="text" id="userInput" placeholder="Task to be done...">
+          <input type="hidden" id="saveIndex">
+          <button id="push">Add Task</button>
+          <button style="display: none;" id="save">Save Task</button>
+        </div>
+      </div>
+      <div id="taskList">
+        <div id="searchTask">
+          <button id="deleteAll">Delete All</button>
+          <input type="text" id="searchBar" placeholder="Search Task">
+        </div>
+        <div id="tasks">
+    </div> 
+          <ul id="taskItems"></ul>
+        </div>
+      </div>
+    </div>
+    <div id="snackBar">Please Enter a Task</div>
+    <!--Script for javascript-->
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
